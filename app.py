@@ -5,6 +5,11 @@ import numpy as np
 import streamlit as st
 from time import sleep
 
+st.title("Carrefour :blue[ChatBot] 🤖")
+
+st.caption("This is a simple Carrefour query bot PoC.")
+st.caption("Author: Ashner Novilla :sunglasses:")
+
 @st.cache_data
 def data_import():
     """
